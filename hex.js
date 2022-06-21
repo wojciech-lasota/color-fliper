@@ -30,14 +30,24 @@ randomBtn.addEventListener(
   "click",
   (random = () => {
     randomBtn.disabled = true;
+    randomBtn.style.cursor = "not-allowed";
+    btn.disabled = true;
+    btn.style.cursor = "not-allowed";
     randomBtn.style.backgroundColor = "#000";
+    btn.style.backgroundColor = "#000";
     randomBtn.style.color = "#fff";
+    btn.style.color = "#fff";
     randomId = setInterval(randomColor, 250);
   })
 );
 stopBtn.addEventListener("click", () => {
   clearInterval(randomId);
   randomBtn.disabled = false;
+  randomBtn.style.cursor = "pointer";
+  btn.disabled = false;
+  randomBtn.style.cursor = "pointer";
   randomBtn.style.backgroundColor = "transparent";
+  btn.style.backgroundColor = "transparent";
   randomBtn.style.color = "#222";
+  btn.style.color = "#222";
 });
