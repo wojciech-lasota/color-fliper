@@ -1,4 +1,6 @@
 # color-fliper
-from john-smilga course
+[from john-smilga course](https://www.johnsmilga.com/)
 
-https://wojciech-lasota.github.io/color-fliper/
+[live preview](https://wojciech-lasota.github.io/color-fliper/)
+
+<img src=/Screenshots/1.png />
